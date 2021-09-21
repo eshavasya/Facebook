@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2994433000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Browser",
+            "match": {
+              "location": "MainScript.LoginFB.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2819735300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the facebook Application",
+            "match": {
+              "location": "MainScript.LoginFB.open_the_facebook_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T17:41:26.512Z",
+        "line": 8,
+        "name": "Validate the login Functionality with all type of Credentials",
+        "description": "",
+        "id": "validating-the-login-functionality-of-facebook;validate-the-login-functionality-with-all-type-of-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 318302900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the username and password",
+            "match": {
+              "location": "MainScript.LoginFB.enter_the_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "thillai",
+                  "teja"
+                ]
+              },
+              {
+                "cells": [
+                  "ramya",
+                  "Arasu"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99229100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the login button",
+            "match": {
+              "location": "MainScript.LoginFB.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the \"\u003cmsg\u003e\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cmsg\u003e\"",
+                  "offset": 13
+                }
+              ],
+              "location": "MainScript.LoginFB.validate_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 308332000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the browser",
+            "match": {
+              "location": "MainScript.LoginFB.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@this"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login functionality of facebook",
+    "description": "",
+    "id": "validating-the-login-functionality-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginFacebook.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
