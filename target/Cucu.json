@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2994433000,
+              "duration": 6264000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2819735300,
+              "duration": 2257000000,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-20T17:41:26.512Z",
+        "start_timestamp": "2021-09-22T03:04:47.718Z",
         "line": 8,
         "name": "Validate the login Functionality with all type of Credentials",
         "description": "",
@@ -46,7 +46,7 @@
         "steps": [
           {
             "result": {
-              "duration": 318302900,
+              "duration": 269000000,
               "status": "passed"
             },
             "line": 10,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 99229100,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 14,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 1001200,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 15,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 308332000,
+              "duration": 906000000,
               "status": "passed"
             },
             "line": 16,
