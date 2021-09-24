@@ -41,7 +41,7 @@ public class LoginFB extends Base {
 		type(lo.getUsername(), amp.get(1).get("username"));
 		type(lo.getPassword(), amp.get(1).get("password"));
 	}
-
+	     
 	@When("click the login button")
 	public void click_the_login_button() {
 		tap(lo.getLogin());
@@ -52,9 +52,9 @@ public class LoginFB extends Base {
 		System.out.println(msg);
 	}
 
-	@Then("close the browser")
-	public void close_the_browser() {
-		driver.quit();
-	}
+    @Then("close the browser")
+    public void close_the_browser() {
+      //  driver.quit();
+    }
 
 }

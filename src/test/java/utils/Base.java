@@ -41,6 +41,11 @@ static WebDriver driver;
 			driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 		}
 		
+		public String getTtitle() {
+		String title =	driver.getTitle();
+		return title;
+		}
+		
 		public void closebrowser() {
 			driver.quit();
 		 }
